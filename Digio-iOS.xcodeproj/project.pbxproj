@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84FF0D762A54DDEB00404309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D752A54DDEB00404309 /* AppDelegate.swift */; };
+		84FF0D782A54DDEB00404309 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D772A54DDEB00404309 /* SceneDelegate.swift */; };
+		84FF0D7A2A54DDEB00404309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D792A54DDEB00404309 /* ViewController.swift */; };
+		84FF0D7D2A54DDEB00404309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0D7B2A54DDEB00404309 /* Main.storyboard */; };
+		84FF0D7F2A54DDEC00404309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0D7E2A54DDEC00404309 /* Assets.xcassets */; };
+		84FF0D822A54DDEC00404309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0D802A54DDEC00404309 /* LaunchScreen.storyboard */; };
+		84FF0D8D2A54DDEC00404309 /* Digio_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D8C2A54DDEC00404309 /* Digio_iOSTests.swift */; };
+		84FF0D972A54DDEC00404309 /* Digio_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D962A54DDEC00404309 /* Digio_iOSUITests.swift */; };
+		84FF0D992A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D982A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84FF0D892A54DDEC00404309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FF0D6A2A54DDEB00404309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FF0D712A54DDEB00404309;
+			remoteInfo = "Digio-iOS";
+		};
+		84FF0D932A54DDEC00404309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FF0D6A2A54DDEB00404309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84FF0D712A54DDEB00404309;
+			remoteInfo = "Digio-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84FF0D722A54DDEB00404309 /* Digio-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digio-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF0D752A54DDEB00404309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84FF0D772A54DDEB00404309 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84FF0D792A54DDEB00404309 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84FF0D7C2A54DDEB00404309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FF0D7E2A54DDEC00404309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84FF0D812A54DDEC00404309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FF0D832A54DDEC00404309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FF0D882A54DDEC00404309 /* Digio-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digio-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF0D8C2A54DDEC00404309 /* Digio_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digio_iOSTests.swift; sourceTree = "<group>"; };
+		84FF0D922A54DDEC00404309 /* Digio-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digio-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF0D962A54DDEC00404309 /* Digio_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digio_iOSUITests.swift; sourceTree = "<group>"; };
+		84FF0D982A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digio_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FF0D6F2A54DDEB00404309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF0D852A54DDEC00404309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF0D8F2A54DDEC00404309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84FF0D692A54DDEB00404309 = {
+			isa = PBXGroup;
+			children = (
+				84FF0D742A54DDEB00404309 /* Digio-iOS */,
+				84FF0D8B2A54DDEC00404309 /* Digio-iOSTests */,
+				84FF0D952A54DDEC00404309 /* Digio-iOSUITests */,
+				84FF0D732A54DDEB00404309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FF0D732A54DDEB00404309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0D722A54DDEB00404309 /* Digio-iOS.app */,
+				84FF0D882A54DDEC00404309 /* Digio-iOSTests.xctest */,
+				84FF0D922A54DDEC00404309 /* Digio-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FF0D742A54DDEB00404309 /* Digio-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0D752A54DDEB00404309 /* AppDelegate.swift */,
+				84FF0D772A54DDEB00404309 /* SceneDelegate.swift */,
+				84FF0D792A54DDEB00404309 /* ViewController.swift */,
+				84FF0D7B2A54DDEB00404309 /* Main.storyboard */,
+				84FF0D7E2A54DDEC00404309 /* Assets.xcassets */,
+				84FF0D802A54DDEC00404309 /* LaunchScreen.storyboard */,
+				84FF0D832A54DDEC00404309 /* Info.plist */,
+			);
+			path = "Digio-iOS";
+			sourceTree = "<group>";
+		};
+		84FF0D8B2A54DDEC00404309 /* Digio-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0D8C2A54DDEC00404309 /* Digio_iOSTests.swift */,
+			);
+			path = "Digio-iOSTests";
+			sourceTree = "<group>";
+		};
+		84FF0D952A54DDEC00404309 /* Digio-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0D962A54DDEC00404309 /* Digio_iOSUITests.swift */,
+				84FF0D982A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Digio-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FF0D712A54DDEB00404309 /* Digio-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FF0D9C2A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOS" */;
+			buildPhases = (
+				84FF0D6E2A54DDEB00404309 /* Sources */,
+				84FF0D6F2A54DDEB00404309 /* Frameworks */,
+				84FF0D702A54DDEB00404309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Digio-iOS";
+			productName = "Digio-iOS";
+			productReference = 84FF0D722A54DDEB00404309 /* Digio-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84FF0D872A54DDEC00404309 /* Digio-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FF0D9F2A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOSTests" */;
+			buildPhases = (
+				84FF0D842A54DDEC00404309 /* Sources */,
+				84FF0D852A54DDEC00404309 /* Frameworks */,
+				84FF0D862A54DDEC00404309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FF0D8A2A54DDEC00404309 /* PBXTargetDependency */,
+			);
+			name = "Digio-iOSTests";
+			productName = "Digio-iOSTests";
+			productReference = 84FF0D882A54DDEC00404309 /* Digio-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84FF0D912A54DDEC00404309 /* Digio-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FF0DA22A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOSUITests" */;
+			buildPhases = (
+				84FF0D8E2A54DDEC00404309 /* Sources */,
+				84FF0D8F2A54DDEC00404309 /* Frameworks */,
+				84FF0D902A54DDEC00404309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84FF0D942A54DDEC00404309 /* PBXTargetDependency */,
+			);
+			name = "Digio-iOSUITests";
+			productName = "Digio-iOSUITests";
+			productReference = 84FF0D922A54DDEC00404309 /* Digio-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FF0D6A2A54DDEB00404309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					84FF0D712A54DDEB00404309 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					84FF0D872A54DDEC00404309 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 84FF0D712A54DDEB00404309;
+					};
+					84FF0D912A54DDEC00404309 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 84FF0D712A54DDEB00404309;
+					};
+				};
+			};
+			buildConfigurationList = 84FF0D6D2A54DDEB00404309 /* Build configuration list for PBXProject "Digio-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FF0D692A54DDEB00404309;
+			productRefGroup = 84FF0D732A54DDEB00404309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FF0D712A54DDEB00404309 /* Digio-iOS */,
+				84FF0D872A54DDEC00404309 /* Digio-iOSTests */,
+				84FF0D912A54DDEC00404309 /* Digio-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FF0D702A54DDEB00404309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FF0D822A54DDEC00404309 /* LaunchScreen.storyboard in Resources */,
+				84FF0D7F2A54DDEC00404309 /* Assets.xcassets in Resources */,
+				84FF0D7D2A54DDEB00404309 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF0D862A54DDEC00404309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF0D902A54DDEC00404309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FF0D6E2A54DDEB00404309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FF0D7A2A54DDEB00404309 /* ViewController.swift in Sources */,
+				84FF0D762A54DDEB00404309 /* AppDelegate.swift in Sources */,
+				84FF0D782A54DDEB00404309 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF0D842A54DDEC00404309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FF0D8D2A54DDEC00404309 /* Digio_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FF0D8E2A54DDEC00404309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FF0D972A54DDEC00404309 /* Digio_iOSUITests.swift in Sources */,
+				84FF0D992A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84FF0D8A2A54DDEC00404309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FF0D712A54DDEB00404309 /* Digio-iOS */;
+			targetProxy = 84FF0D892A54DDEC00404309 /* PBXContainerItemProxy */;
+		};
+		84FF0D942A54DDEC00404309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84FF0D712A54DDEB00404309 /* Digio-iOS */;
+			targetProxy = 84FF0D932A54DDEC00404309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84FF0D7B2A54DDEB00404309 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FF0D7C2A54DDEB00404309 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FF0D802A54DDEC00404309 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FF0D812A54DDEC00404309 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FF0D9A2A54DDEC00404309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84FF0D9B2A54DDEC00404309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FF0D9D2A54DDEC00404309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DBK7C7WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digio-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84FF0D9E2A54DDEC00404309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DBK7C7WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Digio-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84FF0DA02A54DDEC00404309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DBK7C7WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digio-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Digio-iOS";
+			};
+			name = Debug;
+		};
+		84FF0DA12A54DDEC00404309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DBK7C7WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digio-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Digio-iOS";
+			};
+			name = Release;
+		};
+		84FF0DA32A54DDEC00404309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DBK7C7WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Digio-iOS";
+			};
+			name = Debug;
+		};
+		84FF0DA42A54DDEC00404309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DBK7C7WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Digio-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FF0D6D2A54DDEB00404309 /* Build configuration list for PBXProject "Digio-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FF0D9A2A54DDEC00404309 /* Debug */,
+				84FF0D9B2A54DDEC00404309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FF0D9C2A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FF0D9D2A54DDEC00404309 /* Debug */,
+				84FF0D9E2A54DDEC00404309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FF0D9F2A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FF0DA02A54DDEC00404309 /* Debug */,
+				84FF0DA12A54DDEC00404309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FF0DA22A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FF0DA32A54DDEC00404309 /* Debug */,
+				84FF0DA42A54DDEC00404309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FF0D6A2A54DDEB00404309 /* Project object */;
+}
