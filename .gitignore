@@ -1,0 +1,10 @@
+xcuserdata/
+build/
+DerivedData/
+timeline.xctimeline
+playground.xcworkspace
+.build/
+Pods/
+MyPortfolio.xcworkspace
+Podfile.lock
+.DS_Store
