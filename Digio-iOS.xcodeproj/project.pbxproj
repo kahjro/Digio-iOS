@@ -8,14 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		84FF0D762A54DDEB00404309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D752A54DDEB00404309 /* AppDelegate.swift */; };
-		84FF0D782A54DDEB00404309 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D772A54DDEB00404309 /* SceneDelegate.swift */; };
-		84FF0D7A2A54DDEB00404309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D792A54DDEB00404309 /* ViewController.swift */; };
-		84FF0D7D2A54DDEB00404309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0D7B2A54DDEB00404309 /* Main.storyboard */; };
+		84FF0D7A2A54DDEB00404309 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D792A54DDEB00404309 /* ProductListViewController.swift */; };
 		84FF0D7F2A54DDEC00404309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0D7E2A54DDEC00404309 /* Assets.xcassets */; };
 		84FF0D822A54DDEC00404309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0D802A54DDEC00404309 /* LaunchScreen.storyboard */; };
 		84FF0D8D2A54DDEC00404309 /* Digio_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D8C2A54DDEC00404309 /* Digio_iOSTests.swift */; };
-		84FF0D972A54DDEC00404309 /* Digio_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D962A54DDEC00404309 /* Digio_iOSUITests.swift */; };
-		84FF0D992A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D982A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift */; };
+		84FF0DB22A54EF4300404309 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DB12A54EF4300404309 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +35,14 @@
 /* Begin PBXFileReference section */
 		84FF0D722A54DDEB00404309 /* Digio-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digio-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FF0D752A54DDEB00404309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84FF0D772A54DDEB00404309 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84FF0D792A54DDEB00404309 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84FF0D7C2A54DDEB00404309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FF0D792A54DDEB00404309 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		84FF0D7E2A54DDEC00404309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FF0D812A54DDEC00404309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FF0D832A54DDEC00404309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FF0D882A54DDEC00404309 /* Digio-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digio-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FF0D8C2A54DDEC00404309 /* Digio_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digio_iOSTests.swift; sourceTree = "<group>"; };
 		84FF0D922A54DDEC00404309 /* Digio-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digio-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FF0D962A54DDEC00404309 /* Digio_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digio_iOSUITests.swift; sourceTree = "<group>"; };
-		84FF0D982A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digio_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84FF0DB12A54EF4300404309 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +75,6 @@
 			children = (
 				84FF0D742A54DDEB00404309 /* Digio-iOS */,
 				84FF0D8B2A54DDEC00404309 /* Digio-iOSTests */,
-				84FF0D952A54DDEC00404309 /* Digio-iOSUITests */,
 				84FF0D732A54DDEB00404309 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,9 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				84FF0D752A54DDEB00404309 /* AppDelegate.swift */,
-				84FF0D772A54DDEB00404309 /* SceneDelegate.swift */,
-				84FF0D792A54DDEB00404309 /* ViewController.swift */,
-				84FF0D7B2A54DDEB00404309 /* Main.storyboard */,
+				84FF0DB12A54EF4300404309 /* SceneDelegate.swift */,
+				84FF0DAF2A54E86B00404309 /* ProductList */,
 				84FF0D7E2A54DDEC00404309 /* Assets.xcassets */,
 				84FF0D802A54DDEC00404309 /* LaunchScreen.storyboard */,
 				84FF0D832A54DDEC00404309 /* Info.plist */,
@@ -118,13 +110,12 @@
 			path = "Digio-iOSTests";
 			sourceTree = "<group>";
 		};
-		84FF0D952A54DDEC00404309 /* Digio-iOSUITests */ = {
+		84FF0DAF2A54E86B00404309 /* ProductList */ = {
 			isa = PBXGroup;
 			children = (
-				84FF0D962A54DDEC00404309 /* Digio_iOSUITests.swift */,
-				84FF0D982A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift */,
+				84FF0D792A54DDEB00404309 /* ProductListViewController.swift */,
 			);
-			path = "Digio-iOSUITests";
+			path = ProductList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +224,6 @@
 			files = (
 				84FF0D822A54DDEC00404309 /* LaunchScreen.storyboard in Resources */,
 				84FF0D7F2A54DDEC00404309 /* Assets.xcassets in Resources */,
-				84FF0D7D2A54DDEB00404309 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FF0D7A2A54DDEB00404309 /* ViewController.swift in Sources */,
+				84FF0D7A2A54DDEB00404309 /* ProductListViewController.swift in Sources */,
 				84FF0D762A54DDEB00404309 /* AppDelegate.swift in Sources */,
-				84FF0D782A54DDEB00404309 /* SceneDelegate.swift in Sources */,
+				84FF0DB22A54EF4300404309 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FF0D972A54DDEC00404309 /* Digio_iOSUITests.swift in Sources */,
-				84FF0D992A54DDEC00404309 /* Digio_iOSUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +285,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84FF0D7B2A54DDEB00404309 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84FF0D7C2A54DDEB00404309 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84FF0D802A54DDEC00404309 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -446,10 +426,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Digio-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +436,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,10 +457,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Digio-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +467,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,10 +486,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M2DBK7C7WV;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -520,10 +510,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M2DBK7C7WV;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -542,6 +536,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -560,6 +558,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
