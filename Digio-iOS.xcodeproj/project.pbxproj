@@ -7,12 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282E9D6FBAFCB3684768B6FA /* Pods_Digio_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB72CB04F03D94A873C94B76 /* Pods_Digio_iOSTests.framework */; };
+		8450C4FD2A5C899F00DEA9D5 /* CashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C4FC2A5C899F00DEA9D5 /* CashView.swift */; };
+		8450C5002A5C8F7100DEA9D5 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C4FF2A5C8F7100DEA9D5 /* ShadowView.swift */; };
+		8450C5022A5C917E00DEA9D5 /* ProductsCollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C5012A5C917E00DEA9D5 /* ProductsCollectionsView.swift */; };
+		8450C5042A5C91F300DEA9D5 /* ProductsBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C5032A5C91F300DEA9D5 /* ProductsBannerCell.swift */; };
+		8450C5092A5C993100DEA9D5 /* ProductListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C5082A5C993100DEA9D5 /* ProductListRouter.swift */; };
+		8450C50D2A5C9E4600DEA9D5 /* ProductDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C50C2A5C9E4600DEA9D5 /* ProductDetailModel.swift */; };
+		8450C5132A5CA16100DEA9D5 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C5122A5CA16100DEA9D5 /* ProductDetailViewController.swift */; };
+		8450C5152A5CB22B00DEA9D5 /* ProductListServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C5142A5CB22B00DEA9D5 /* ProductListServiceMock.swift */; };
+		8450C5182A5CB5D200DEA9D5 /* ProductJsonMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C5172A5CB5D200DEA9D5 /* ProductJsonMock.swift */; };
+		8450C51A2A5CB62C00DEA9D5 /* ProductJsonMock.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8450C5192A5CB62C00DEA9D5 /* ProductJsonMock.txt */; };
 		84FF0D762A54DDEB00404309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D752A54DDEB00404309 /* AppDelegate.swift */; };
 		84FF0D7A2A54DDEB00404309 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D792A54DDEB00404309 /* ProductListViewController.swift */; };
 		84FF0D7F2A54DDEC00404309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0D7E2A54DDEC00404309 /* Assets.xcassets */; };
 		84FF0D822A54DDEC00404309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0D802A54DDEC00404309 /* LaunchScreen.storyboard */; };
-		84FF0D8D2A54DDEC00404309 /* Digio_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D8C2A54DDEC00404309 /* Digio_iOSTests.swift */; };
+		84FF0D8D2A54DDEC00404309 /* ProductListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D8C2A54DDEC00404309 /* ProductListTests.swift */; };
 		84FF0DB22A54EF4300404309 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DB12A54EF4300404309 /* SceneDelegate.swift */; };
+		84FF0DB52A55CDA400404309 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DB42A55CDA400404309 /* ProductsModel.swift */; };
+		84FF0DB82A55DB4300404309 /* ProductListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DB72A55DB4300404309 /* ProductListService.swift */; };
+		84FF0DBA2A55F54A00404309 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DB92A55F54A00404309 /* URLSessionHTTPClient.swift */; };
+		84FF0DBD2A55F78E00404309 /* HTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DBC2A55F78E00404309 /* HTTPClientTests.swift */; };
+		84FF0DC02A55F7D200404309 /* SharedTestsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DBF2A55F7D200404309 /* SharedTestsHelper.swift */; };
+		84FF0DC22A55F82D00404309 /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DC12A55F82C00404309 /* URLProtocolStub.swift */; };
+		84FF0DC62A55FE1E00404309 /* ProductMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DC52A55FE1E00404309 /* ProductMapper.swift */; };
+		84FF0DCA2A5C3F8E00404309 /* SpotlightBannerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DC92A5C3F8E00404309 /* SpotlightBannerCollectionView.swift */; };
+		84FF0DCD2A5C4C6500404309 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DCC2A5C4C6500404309 /* UIView+Constraints.swift */; };
+		84FF0DCF2A5C4CB700404309 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DCE2A5C4CB700404309 /* UIImageView+Extension.swift */; };
+		84FF0DD12A5C4CEC00404309 /* NSObject+class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DD02A5C4CEC00404309 /* NSObject+class.swift */; };
+		84FF0DD32A5C4D0D00404309 /* UIStackView+ArrangedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DD22A5C4D0D00404309 /* UIStackView+ArrangedSubview.swift */; };
+		84FF0DD52A5C4D3400404309 /* UIStackView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DD42A5C4D3400404309 /* UIStackView+Constraints.swift */; };
+		84FF0DD72A5C56E100404309 /* ProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DD62A5C56E000404309 /* ProductListInteractor.swift */; };
+		84FF0DDA2A5C5A9C00404309 /* ProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DD92A5C5A9C00404309 /* ProductListPresenter.swift */; };
+		84FF0DDC2A5C691500404309 /* SpotlightBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0DDB2A5C691500404309 /* SpotlightBannerCell.swift */; };
+		FFA78A63398615935E2CB438 /* Pods_Digio_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC85E8C4E5B326E1DAF40D3D /* Pods_Digio_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,16 +51,22 @@
 			remoteGlobalIDString = 84FF0D712A54DDEB00404309;
 			remoteInfo = "Digio-iOS";
 		};
-		84FF0D932A54DDEC00404309 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84FF0D6A2A54DDEB00404309 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84FF0D712A54DDEB00404309;
-			remoteInfo = "Digio-iOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		564A812645E90B9F19C0403A /* Pods-Digio-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digio-iOSTests.release.xcconfig"; path = "Target Support Files/Pods-Digio-iOSTests/Pods-Digio-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6483AF8A42F2EC15966CB02C /* Pods-Digio-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digio-iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Digio-iOSTests/Pods-Digio-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64D1A012B282E39F3BFE2683 /* Pods-Digio-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digio-iOS.release.xcconfig"; path = "Target Support Files/Pods-Digio-iOS/Pods-Digio-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8450C4FC2A5C899F00DEA9D5 /* CashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashView.swift; sourceTree = "<group>"; };
+		8450C4FF2A5C8F7100DEA9D5 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		8450C5012A5C917E00DEA9D5 /* ProductsCollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionsView.swift; sourceTree = "<group>"; };
+		8450C5032A5C91F300DEA9D5 /* ProductsBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsBannerCell.swift; sourceTree = "<group>"; };
+		8450C5082A5C993100DEA9D5 /* ProductListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRouter.swift; sourceTree = "<group>"; };
+		8450C50C2A5C9E4600DEA9D5 /* ProductDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailModel.swift; sourceTree = "<group>"; };
+		8450C5122A5CA16100DEA9D5 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		8450C5142A5CB22B00DEA9D5 /* ProductListServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListServiceMock.swift; sourceTree = "<group>"; };
+		8450C5172A5CB5D200DEA9D5 /* ProductJsonMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductJsonMock.swift; sourceTree = "<group>"; };
+		8450C5192A5CB62C00DEA9D5 /* ProductJsonMock.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductJsonMock.txt; sourceTree = "<group>"; };
 		84FF0D722A54DDEB00404309 /* Digio-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digio-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FF0D752A54DDEB00404309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FF0D792A54DDEB00404309 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
@@ -40,9 +74,27 @@
 		84FF0D812A54DDEC00404309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FF0D832A54DDEC00404309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84FF0D882A54DDEC00404309 /* Digio-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digio-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84FF0D8C2A54DDEC00404309 /* Digio_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digio_iOSTests.swift; sourceTree = "<group>"; };
-		84FF0D922A54DDEC00404309 /* Digio-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Digio-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FF0D8C2A54DDEC00404309 /* ProductListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTests.swift; sourceTree = "<group>"; };
 		84FF0DB12A54EF4300404309 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84FF0DB42A55CDA400404309 /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		84FF0DB72A55DB4300404309 /* ProductListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListService.swift; sourceTree = "<group>"; };
+		84FF0DB92A55F54A00404309 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
+		84FF0DBC2A55F78E00404309 /* HTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientTests.swift; sourceTree = "<group>"; };
+		84FF0DBF2A55F7D200404309 /* SharedTestsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestsHelper.swift; sourceTree = "<group>"; };
+		84FF0DC12A55F82C00404309 /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
+		84FF0DC52A55FE1E00404309 /* ProductMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductMapper.swift; sourceTree = "<group>"; };
+		84FF0DC92A5C3F8E00404309 /* SpotlightBannerCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightBannerCollectionView.swift; sourceTree = "<group>"; };
+		84FF0DCC2A5C4C6500404309 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		84FF0DCE2A5C4CB700404309 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		84FF0DD02A5C4CEC00404309 /* NSObject+class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+class.swift"; sourceTree = "<group>"; };
+		84FF0DD22A5C4D0D00404309 /* UIStackView+ArrangedSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+ArrangedSubview.swift"; sourceTree = "<group>"; };
+		84FF0DD42A5C4D3400404309 /* UIStackView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Constraints.swift"; sourceTree = "<group>"; };
+		84FF0DD62A5C56E000404309 /* ProductListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractor.swift; sourceTree = "<group>"; };
+		84FF0DD92A5C5A9C00404309 /* ProductListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenter.swift; sourceTree = "<group>"; };
+		84FF0DDB2A5C691500404309 /* SpotlightBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightBannerCell.swift; sourceTree = "<group>"; };
+		A36F0301432D0C23B31039D1 /* Pods-Digio-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digio-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Digio-iOS/Pods-Digio-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EB72CB04F03D94A873C94B76 /* Pods_Digio_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Digio_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC85E8C4E5B326E1DAF40D3D /* Pods_Digio_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Digio_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA78A63398615935E2CB438 /* Pods_Digio_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,25 +110,109 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF0D8F2A54DDEC00404309 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				282E9D6FBAFCB3684768B6FA /* Pods_Digio_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7111EBABD6AA54F5B487858D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC85E8C4E5B326E1DAF40D3D /* Pods_Digio_iOS.framework */,
+				EB72CB04F03D94A873C94B76 /* Pods_Digio_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8450C4FE2A5C8F6300DEA9D5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8450C4FF2A5C8F7100DEA9D5 /* ShadowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8450C5052A5C91F800DEA9D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8450C5012A5C917E00DEA9D5 /* ProductsCollectionsView.swift */,
+				8450C5032A5C91F300DEA9D5 /* ProductsBannerCell.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		8450C5062A5C920B00DEA9D5 /* Spotlight */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0DC92A5C3F8E00404309 /* SpotlightBannerCollectionView.swift */,
+				84FF0DDB2A5C691500404309 /* SpotlightBannerCell.swift */,
+			);
+			path = Spotlight;
+			sourceTree = "<group>";
+		};
+		8450C5072A5C921500DEA9D5 /* Cash */ = {
+			isa = PBXGroup;
+			children = (
+				8450C4FC2A5C899F00DEA9D5 /* CashView.swift */,
+			);
+			path = Cash;
+			sourceTree = "<group>";
+		};
+		8450C50E2A5CA0E300DEA9D5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8450C5082A5C993100DEA9D5 /* ProductListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8450C50F2A5CA10200DEA9D5 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				8450C4FE2A5C8F6300DEA9D5 /* Components */,
+				84FF0DCB2A5C4C5500404309 /* Extensions */,
+				84FF0DBB2A55F6E200404309 /* API */,
+				84FF0DB12A54EF4300404309 /* SceneDelegate.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		8450C5102A5CA12D00DEA9D5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0DAF2A54E86B00404309 /* ProductList */,
+				8450C5112A5CA13A00DEA9D5 /* ProductDetail */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8450C5112A5CA13A00DEA9D5 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8450C5122A5CA16100DEA9D5 /* ProductDetailViewController.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		8450C5162A5CB5BD00DEA9D5 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8450C5192A5CB62C00DEA9D5 /* ProductJsonMock.txt */,
+				8450C5172A5CB5D200DEA9D5 /* ProductJsonMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		84FF0D692A54DDEB00404309 = {
 			isa = PBXGroup;
 			children = (
 				84FF0D742A54DDEB00404309 /* Digio-iOS */,
 				84FF0D8B2A54DDEC00404309 /* Digio-iOSTests */,
 				84FF0D732A54DDEB00404309 /* Products */,
+				94EEE8A97A627E250A56BB44 /* Pods */,
+				7111EBABD6AA54F5B487858D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,7 +221,6 @@
 			children = (
 				84FF0D722A54DDEB00404309 /* Digio-iOS.app */,
 				84FF0D882A54DDEC00404309 /* Digio-iOSTests.xctest */,
-				84FF0D922A54DDEC00404309 /* Digio-iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,11 +229,11 @@
 			isa = PBXGroup;
 			children = (
 				84FF0D752A54DDEB00404309 /* AppDelegate.swift */,
-				84FF0DB12A54EF4300404309 /* SceneDelegate.swift */,
-				84FF0DAF2A54E86B00404309 /* ProductList */,
 				84FF0D7E2A54DDEC00404309 /* Assets.xcassets */,
 				84FF0D802A54DDEC00404309 /* LaunchScreen.storyboard */,
 				84FF0D832A54DDEC00404309 /* Info.plist */,
+				8450C5102A5CA12D00DEA9D5 /* Scenes */,
+				8450C50F2A5CA10200DEA9D5 /* Infrastructure */,
 			);
 			path = "Digio-iOS";
 			sourceTree = "<group>";
@@ -105,7 +241,10 @@
 		84FF0D8B2A54DDEC00404309 /* Digio-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				84FF0D8C2A54DDEC00404309 /* Digio_iOSTests.swift */,
+				8450C5162A5CB5BD00DEA9D5 /* Mocks */,
+				84FF0DBE2A55F7BA00404309 /* Helpers */,
+				84FF0D8C2A54DDEC00404309 /* ProductListTests.swift */,
+				84FF0DBC2A55F78E00404309 /* HTTPClientTests.swift */,
 			);
 			path = "Digio-iOSTests";
 			sourceTree = "<group>";
@@ -114,8 +253,99 @@
 			isa = PBXGroup;
 			children = (
 				84FF0D792A54DDEB00404309 /* ProductListViewController.swift */,
+				84FF0DC72A5C3E5400404309 /* Interactor */,
+				84FF0DD82A5C5A7D00404309 /* Presenter */,
+				84FF0DC82A5C3F4700404309 /* Views */,
+				84FF0DB62A55DB2600404309 /* Model */,
+				84FF0DB32A55CD8A00404309 /* Service */,
+				8450C50E2A5CA0E300DEA9D5 /* Router */,
 			);
 			path = ProductList;
+			sourceTree = "<group>";
+		};
+		84FF0DB32A55CD8A00404309 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0DB72A55DB4300404309 /* ProductListService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84FF0DB62A55DB2600404309 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0DC52A55FE1E00404309 /* ProductMapper.swift */,
+				84FF0DB42A55CDA400404309 /* ProductsModel.swift */,
+				8450C50C2A5C9E4600DEA9D5 /* ProductDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84FF0DBB2A55F6E200404309 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0DB92A55F54A00404309 /* URLSessionHTTPClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		84FF0DBE2A55F7BA00404309 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0DBF2A55F7D200404309 /* SharedTestsHelper.swift */,
+				84FF0DC12A55F82C00404309 /* URLProtocolStub.swift */,
+				8450C5142A5CB22B00DEA9D5 /* ProductListServiceMock.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84FF0DC72A5C3E5400404309 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0DD62A5C56E000404309 /* ProductListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		84FF0DC82A5C3F4700404309 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8450C5062A5C920B00DEA9D5 /* Spotlight */,
+				8450C5072A5C921500DEA9D5 /* Cash */,
+				8450C5052A5C91F800DEA9D5 /* Products */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84FF0DCB2A5C4C5500404309 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0DCC2A5C4C6500404309 /* UIView+Constraints.swift */,
+				84FF0DCE2A5C4CB700404309 /* UIImageView+Extension.swift */,
+				84FF0DD02A5C4CEC00404309 /* NSObject+class.swift */,
+				84FF0DD22A5C4D0D00404309 /* UIStackView+ArrangedSubview.swift */,
+				84FF0DD42A5C4D3400404309 /* UIStackView+Constraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84FF0DD82A5C5A7D00404309 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84FF0DD92A5C5A9C00404309 /* ProductListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		94EEE8A97A627E250A56BB44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A36F0301432D0C23B31039D1 /* Pods-Digio-iOS.debug.xcconfig */,
+				64D1A012B282E39F3BFE2683 /* Pods-Digio-iOS.release.xcconfig */,
+				6483AF8A42F2EC15966CB02C /* Pods-Digio-iOSTests.debug.xcconfig */,
+				564A812645E90B9F19C0403A /* Pods-Digio-iOSTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84FF0D9C2A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOS" */;
 			buildPhases = (
+				015DBB77748BF935299FEBD1 /* [CP] Check Pods Manifest.lock */,
 				84FF0D6E2A54DDEB00404309 /* Sources */,
 				84FF0D6F2A54DDEB00404309 /* Frameworks */,
 				84FF0D702A54DDEB00404309 /* Resources */,
+				8450C51B2A5CC02700DEA9D5 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -142,6 +374,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84FF0D9F2A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOSTests" */;
 			buildPhases = (
+				3C706DD6EED80E38E91B600C /* [CP] Check Pods Manifest.lock */,
 				84FF0D842A54DDEC00404309 /* Sources */,
 				84FF0D852A54DDEC00404309 /* Frameworks */,
 				84FF0D862A54DDEC00404309 /* Resources */,
@@ -155,24 +388,6 @@
 			productName = "Digio-iOSTests";
 			productReference = 84FF0D882A54DDEC00404309 /* Digio-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		84FF0D912A54DDEC00404309 /* Digio-iOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84FF0DA22A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOSUITests" */;
-			buildPhases = (
-				84FF0D8E2A54DDEC00404309 /* Sources */,
-				84FF0D8F2A54DDEC00404309 /* Frameworks */,
-				84FF0D902A54DDEC00404309 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84FF0D942A54DDEC00404309 /* PBXTargetDependency */,
-			);
-			name = "Digio-iOSUITests";
-			productName = "Digio-iOSUITests";
-			productReference = 84FF0D922A54DDEC00404309 /* Digio-iOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -188,10 +403,6 @@
 						CreatedOnToolsVersion = 15.0;
 					};
 					84FF0D872A54DDEC00404309 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 84FF0D712A54DDEB00404309;
-					};
-					84FF0D912A54DDEC00404309 = {
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 84FF0D712A54DDEB00404309;
 					};
@@ -212,7 +423,6 @@
 			targets = (
 				84FF0D712A54DDEB00404309 /* Digio-iOS */,
 				84FF0D872A54DDEC00404309 /* Digio-iOSTests */,
-				84FF0D912A54DDEC00404309 /* Digio-iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,26 +441,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF0D902A54DDEC00404309 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8450C51A2A5CB62C00DEA9D5 /* ProductJsonMock.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		015DBB77748BF935299FEBD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Digio-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C706DD6EED80E38E91B600C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Digio-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8450C51B2A5CC02700DEA9D5 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84FF0D6E2A54DDEB00404309 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8450C5002A5C8F7100DEA9D5 /* ShadowView.swift in Sources */,
+				8450C5092A5C993100DEA9D5 /* ProductListRouter.swift in Sources */,
+				84FF0DCF2A5C4CB700404309 /* UIImageView+Extension.swift in Sources */,
 				84FF0D7A2A54DDEB00404309 /* ProductListViewController.swift in Sources */,
 				84FF0D762A54DDEB00404309 /* AppDelegate.swift in Sources */,
+				84FF0DD12A5C4CEC00404309 /* NSObject+class.swift in Sources */,
+				8450C5042A5C91F300DEA9D5 /* ProductsBannerCell.swift in Sources */,
 				84FF0DB22A54EF4300404309 /* SceneDelegate.swift in Sources */,
+				84FF0DD52A5C4D3400404309 /* UIStackView+Constraints.swift in Sources */,
+				84FF0DCD2A5C4C6500404309 /* UIView+Constraints.swift in Sources */,
+				8450C50D2A5C9E4600DEA9D5 /* ProductDetailModel.swift in Sources */,
+				84FF0DCA2A5C3F8E00404309 /* SpotlightBannerCollectionView.swift in Sources */,
+				8450C4FD2A5C899F00DEA9D5 /* CashView.swift in Sources */,
+				84FF0DDC2A5C691500404309 /* SpotlightBannerCell.swift in Sources */,
+				8450C5022A5C917E00DEA9D5 /* ProductsCollectionsView.swift in Sources */,
+				8450C5132A5CA16100DEA9D5 /* ProductDetailViewController.swift in Sources */,
+				84FF0DD72A5C56E100404309 /* ProductListInteractor.swift in Sources */,
+				84FF0DBA2A55F54A00404309 /* URLSessionHTTPClient.swift in Sources */,
+				84FF0DDA2A5C5A9C00404309 /* ProductListPresenter.swift in Sources */,
+				84FF0DB52A55CDA400404309 /* ProductsModel.swift in Sources */,
+				84FF0DD32A5C4D0D00404309 /* UIStackView+ArrangedSubview.swift in Sources */,
+				84FF0DC62A55FE1E00404309 /* ProductMapper.swift in Sources */,
+				84FF0DB82A55DB4300404309 /* ProductListService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,14 +547,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84FF0D8D2A54DDEC00404309 /* Digio_iOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84FF0D8E2A54DDEC00404309 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8450C5152A5CB22B00DEA9D5 /* ProductListServiceMock.swift in Sources */,
+				84FF0DBD2A55F78E00404309 /* HTTPClientTests.swift in Sources */,
+				84FF0D8D2A54DDEC00404309 /* ProductListTests.swift in Sources */,
+				8450C5182A5CB5D200DEA9D5 /* ProductJsonMock.swift in Sources */,
+				84FF0DC02A55F7D200404309 /* SharedTestsHelper.swift in Sources */,
+				84FF0DC22A55F82D00404309 /* URLProtocolStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +563,6 @@
 			isa = PBXTargetDependency;
 			target = 84FF0D712A54DDEB00404309 /* Digio-iOS */;
 			targetProxy = 84FF0D892A54DDEC00404309 /* PBXContainerItemProxy */;
-		};
-		84FF0D942A54DDEC00404309 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84FF0D712A54DDEB00404309 /* Digio-iOS */;
-			targetProxy = 84FF0D932A54DDEC00404309 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +699,7 @@
 		};
 		84FF0D9D2A54DDEC00404309 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36F0301432D0C23B31039D1 /* Pods-Digio-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +731,7 @@
 		};
 		84FF0D9E2A54DDEC00404309 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D1A012B282E39F3BFE2683 /* Pods-Digio-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +763,7 @@
 		};
 		84FF0DA02A54DDEC00404309 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6483AF8A42F2EC15966CB02C /* Pods-Digio-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,6 +788,7 @@
 		};
 		84FF0DA12A54DDEC00404309 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564A812645E90B9F19C0403A /* Pods-Digio-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,50 +808,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Digio-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Digio-iOS";
-			};
-			name = Release;
-		};
-		84FF0DA32A54DDEC00404309 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M2DBK7C7WV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Digio-iOS";
-			};
-			name = Debug;
-		};
-		84FF0DA42A54DDEC00404309 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M2DBK7C7WV;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kazuo.Digio-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = YES;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Digio-iOS";
 			};
 			name = Release;
 		};
@@ -595,15 +837,6 @@
 			buildConfigurations = (
 				84FF0DA02A54DDEC00404309 /* Debug */,
 				84FF0DA12A54DDEC00404309 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84FF0DA22A54DDEC00404309 /* Build configuration list for PBXNativeTarget "Digio-iOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84FF0DA32A54DDEC00404309 /* Debug */,
-				84FF0DA42A54DDEC00404309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
