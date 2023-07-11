@@ -9,31 +9,28 @@ import XCTest
 @testable import Digio_iOS
 
 final class ProductListTests: XCTestCase {
-	
+
 	var sut: ProductListViewController!
 	var apiMock: ProductListServiceMock!
 	var interactorSpy: ProductListInteractorSpy!
-	
-	override func setUp()
-	{
+
+	override func setUp() {
 		super.setUp()
 		setupProductListViewController()
 	}
 
-	override func tearDown()
-	{
+	override func tearDown() {
 		super.tearDown()
 	}
 
 	// MARK: - Test setup
 
-	func setupProductListViewController()
-	{
+	func setupProductListViewController() {
 		sut = ProductListViewController()
 		apiMock = ProductListServiceMock()
 		interactorSpy = ProductListInteractorSpy()
 	}
-	
+
 	func test_stateShouldBeSucess() {
 
 		guard let mock = ProductJsonMock.getProduct() else {
@@ -47,6 +44,6 @@ final class ProductListTests: XCTestCase {
 		sut.viewDidLoad()
 
 		XCTAssertTrue(interactorSpy.didGetProductsList)
-		
+
 	}
 }

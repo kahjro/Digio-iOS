@@ -50,4 +50,3 @@ extension UIStackView {
 		removedSubviews.forEach({ subview in subview.removeFromSuperview() })
 	}
 }
-

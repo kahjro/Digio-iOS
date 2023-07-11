@@ -357,9 +357,9 @@
 			buildPhases = (
 				015DBB77748BF935299FEBD1 /* [CP] Check Pods Manifest.lock */,
 				84FF0D6E2A54DDEB00404309 /* Sources */,
+				8450C51B2A5CC02700DEA9D5 /* SwiftLint */,
 				84FF0D6F2A54DDEB00404309 /* Frameworks */,
 				84FF0D702A54DDEB00404309 /* Resources */,
-				8450C51B2A5CC02700DEA9D5 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -508,7 +508,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "
+";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -705,7 +706,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M2DBK7C7WV;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Digio-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

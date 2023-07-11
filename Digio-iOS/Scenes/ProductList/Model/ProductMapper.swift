@@ -12,7 +12,7 @@ final class ProductMapper {
 		guard response.statusCode == 200, let result = try? JSONDecoder().decode(ProductsModel.self, from: data) else {
 			throw NetworkError.invalidData
 		}
-		
+
 		return result
 	}
 }
