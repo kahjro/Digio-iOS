@@ -4,6 +4,10 @@ Utilizei os seguintes pacotes SPM:
 
 - [x] SwiftLint 0.52.3
 
+## 💻 Instruções:
+- execute um ```pod install```
+- abra o ```Digio-iOS.xcworkspace```
+- execute o projeto
 
 ## 💻 Bibliotecas utilizadas:
 
