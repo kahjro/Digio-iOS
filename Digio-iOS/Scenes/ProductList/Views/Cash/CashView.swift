@@ -25,7 +25,7 @@ final class CashView: UIView {
 
 	private lazy var cashTitleLabel: UILabel = {
 		var label = UILabel()
-		let attrs1 = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 24), NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.1188358739, green: 0.1861418486, blue: 0.2863286436, alpha: 1)]
+		let attrs1 = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 24), NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.1176470588, green: 0.1843137255, blue: 0.2862745098, alpha: 1)]
 
 		let attrs2 = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 24), NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.5529411435, green: 0.5529412031, blue: 0.5529411435, alpha: 1)]
 

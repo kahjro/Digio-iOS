@@ -13,12 +13,19 @@ extension UIImageView {
 		guard let imageURL = URL(string: url) else { return }
 
 		DispatchQueue.global().async {
-			guard let imageData = try? Data(contentsOf: imageURL) else { return }
-
-			let image = UIImage(data: imageData)
-			DispatchQueue.main.async {
-				self.image = image
+			if let imageData = try? Data(contentsOf: imageURL) {
+				let image = UIImage(data: imageData)
+				DispatchQueue.main.async {
+					self.image = image
+				}
+			} else {
+				let image = UIImage(named: "wifi-slash")
+				DispatchQueue.main.async {
+					self.image = image
+				}
 			}
+
+			
 		}
 	}
 }

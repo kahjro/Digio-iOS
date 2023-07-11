@@ -41,13 +41,13 @@ final class SpotlightBannerCell: UICollectionViewCell {
 	private func setupLayout() {
 		addSubview(containerView, constraints: [
 			containerView.topAnchor.constraint(equalTo: topAnchor, constant: 12),
-			containerView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 12),
+			containerView.leadingAnchor.constraint(equalTo: leadingAnchor),
 			containerView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -12),
 			containerView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -12)
 		])
 		containerView.addSubview(bannerImageView, constraints: [
 			bannerImageView.topAnchor.constraint(equalTo: topAnchor, constant: 12),
-			bannerImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 12),
+			bannerImageView.leadingAnchor.constraint(equalTo: leadingAnchor),
 			bannerImageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -12),
 			bannerImageView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -12)
 		])

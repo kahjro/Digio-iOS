@@ -33,15 +33,15 @@ class ProductListViewController: UIViewController {
 
 	private lazy var spotlightCollectionView: SpotlightBannerCollectionView = {
 		let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-		layout.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-		layout.itemSize = CGSize(width: view.frame.size.width, height: 200)
+		layout.sectionInset = UIEdgeInsets(top: 10, left: 4, bottom: 10, right: 0)
+		layout.itemSize = CGSize(width: view.frame.size.width - 12, height: 210)
 		layout.scrollDirection = .horizontal
-		layout.minimumLineSpacing = 12
 		var collectionView = SpotlightBannerCollectionView(frame: .zero, collectionViewLayout: layout)
 		collectionView.translatesAutoresizingMaskIntoConstraints = false
 		collectionView.backgroundColor = .white
 		collectionView.isScrollEnabled = true
 		collectionView.showsHorizontalScrollIndicator = false
+		collectionView.showsVerticalScrollIndicator = false
 		return collectionView
 	}()
 
@@ -60,15 +60,15 @@ class ProductListViewController: UIViewController {
 
 	private lazy var productsCollectionView: ProductsBannerCollectionView = {
 		let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-		layout.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+		layout.sectionInset = UIEdgeInsets(top: 10, left: 4, bottom: 10, right: 4)
 		layout.itemSize = CGSize(width: 130, height: 130)
 		layout.scrollDirection = .horizontal
-		layout.minimumLineSpacing = 12
 		var collectionView = ProductsBannerCollectionView(frame: .zero, collectionViewLayout: layout)
 		collectionView.translatesAutoresizingMaskIntoConstraints = false
 		collectionView.backgroundColor = .white
 		collectionView.isScrollEnabled = true
 		collectionView.showsHorizontalScrollIndicator = false
+		collectionView.showsVerticalScrollIndicator = false
 		return collectionView
 	}()
 
@@ -118,7 +118,7 @@ class ProductListViewController: UIViewController {
 		])
 
 		view.addSubview(spotlightCollectionView, constraints: [
-			spotlightCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+			spotlightCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 8),
 			spotlightCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
 			spotlightCollectionView.topAnchor.constraint(equalTo: titleIcon.bottomAnchor, constant: 8),
 			spotlightCollectionView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.48)
@@ -138,8 +138,8 @@ class ProductListViewController: UIViewController {
 		])
 
 		view.addSubview(productsCollectionView, constraints: [
-			productsCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-			productsCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+			productsCollectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 8),
+			productsCollectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -8),
 			productsCollectionView.topAnchor.constraint(equalTo: productsLabel.bottomAnchor, constant: 8),
 			productsCollectionView.heightAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.35)
 		])
