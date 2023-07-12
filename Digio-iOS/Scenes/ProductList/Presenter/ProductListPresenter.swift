@@ -9,7 +9,7 @@ import Foundation
 
 protocol ProductListPresenterLogic {
 	func presentProductList(response: ProductsModel)
-	func presentLoadError()
+	func presentLoadError(with description: String?)
 }
 
 final class ProductListPresenter: ProductListPresenterLogic {
@@ -20,8 +20,8 @@ final class ProductListPresenter: ProductListPresenterLogic {
 		self.delegate = delegate
 	}
 
-	func presentLoadError() {
-		delegate?.presentError()
+	func presentLoadError(with description: String?) {
+		delegate?.presentError(with: description)
 	}
 
 	func presentProductList(response: ProductsModel) {

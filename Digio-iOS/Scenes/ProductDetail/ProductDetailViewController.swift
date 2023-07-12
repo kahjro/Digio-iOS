@@ -9,7 +9,7 @@ import UIKit
 
 class BannerProductDetailViewController: UIViewController {
 
-	lazy var backButton: UIButton = {
+	private lazy var backButton: UIButton = {
 		var button = UIButton()
 		button.setTitle("X", for: .normal)
 		button.addTarget(self, action: #selector(dismissView), for: .touchUpInside)
@@ -22,20 +22,20 @@ class BannerProductDetailViewController: UIViewController {
 		self.presentingViewController?.dismiss(animated: true)
 	}
 
-	lazy var contentStackView: UIStackView = {
+	private lazy var contentStackView: UIStackView = {
 		var stackView = UIStackView(arrangedSubviews: [detailBannerImageView, titleStackView, detailDescriptionLabel])
-		stackView.alignment = .fill
+		stackView.alignment = .leading
 		stackView.axis = .vertical
 		stackView.spacing = 12
 		return stackView
 	}()
 
-	lazy var detailBannerImageView: UIImageView = {
+	private lazy var detailBannerImageView: UIImageView = {
 		var imageView = UIImageView()
 		return imageView
 	}()
 
-	lazy var titleStackView: UIStackView = {
+	private lazy var titleStackView: UIStackView = {
 		var stackView = UIStackView(arrangedSubviews: [detailIconImageView, detailTitleLabel])
 		stackView.alignment = .fill
 		stackView.axis = .horizontal
@@ -43,18 +43,18 @@ class BannerProductDetailViewController: UIViewController {
 		return stackView
 	}()
 
-	lazy var detailIconImageView: UIImageView = {
+	private lazy var detailIconImageView: UIImageView = {
 		var imageView = UIImageView()
 		return imageView
 	}()
 
-	lazy var detailTitleLabel: UILabel = {
+	private lazy var detailTitleLabel: UILabel = {
 		var label = UILabel()
 		label.font = .systemFont(ofSize: 24, weight: .semibold)
 		return label
 	}()
 
-	lazy var detailDescriptionLabel: UILabel = {
+	private lazy var detailDescriptionLabel: UILabel = {
 		var label = UILabel()
 		label.font = .systemFont(ofSize: 16, weight: .medium)
 		label.numberOfLines = 0

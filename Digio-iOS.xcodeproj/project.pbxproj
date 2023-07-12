@@ -18,6 +18,7 @@
 		8450C5152A5CB22B00DEA9D5 /* ProductListServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C5142A5CB22B00DEA9D5 /* ProductListServiceMock.swift */; };
 		8450C5182A5CB5D200DEA9D5 /* ProductJsonMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450C5172A5CB5D200DEA9D5 /* ProductJsonMock.swift */; };
 		8450C51A2A5CB62C00DEA9D5 /* ProductJsonMock.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8450C5192A5CB62C00DEA9D5 /* ProductJsonMock.txt */; };
+		8499B6FA2A5EF0ED00F75A93 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8499B6F92A5EF0ED00F75A93 /* APIError.swift */; };
 		84FF0D762A54DDEB00404309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D752A54DDEB00404309 /* AppDelegate.swift */; };
 		84FF0D7A2A54DDEB00404309 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF0D792A54DDEB00404309 /* ProductListViewController.swift */; };
 		84FF0D7F2A54DDEC00404309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FF0D7E2A54DDEC00404309 /* Assets.xcassets */; };
@@ -67,6 +68,7 @@
 		8450C5142A5CB22B00DEA9D5 /* ProductListServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListServiceMock.swift; sourceTree = "<group>"; };
 		8450C5172A5CB5D200DEA9D5 /* ProductJsonMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductJsonMock.swift; sourceTree = "<group>"; };
 		8450C5192A5CB62C00DEA9D5 /* ProductJsonMock.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProductJsonMock.txt; sourceTree = "<group>"; };
+		8499B6F92A5EF0ED00F75A93 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		84FF0D722A54DDEB00404309 /* Digio-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Digio-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FF0D752A54DDEB00404309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84FF0D792A54DDEB00404309 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				84FF0DB92A55F54A00404309 /* URLSessionHTTPClient.swift */,
+				8499B6F92A5EF0ED00F75A93 /* APIError.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -523,6 +526,7 @@
 				84FF0DCF2A5C4CB700404309 /* UIImageView+Extension.swift in Sources */,
 				84FF0D7A2A54DDEB00404309 /* ProductListViewController.swift in Sources */,
 				84FF0D762A54DDEB00404309 /* AppDelegate.swift in Sources */,
+				8499B6FA2A5EF0ED00F75A93 /* APIError.swift in Sources */,
 				84FF0DD12A5C4CEC00404309 /* NSObject+class.swift in Sources */,
 				8450C5042A5C91F300DEA9D5 /* ProductsBannerCell.swift in Sources */,
 				84FF0DB22A54EF4300404309 /* SceneDelegate.swift in Sources */,

@@ -28,8 +28,8 @@ final class ProductListInteractor: ProductListInteractorLogic {
 			case let .success(productList):
 				presenter.presentProductList(response: productList)
 
-			case .failure:
-				presenter.presentLoadError()
+			case let .failure(error):
+				presenter.presentLoadError(with: error.errorDescription)
 			}
 		}
 	}

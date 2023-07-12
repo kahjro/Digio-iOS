@@ -36,8 +36,3 @@ final class URLSessionHTTPClient: HTTPClient {
 		task.resume()
 	}
 }
-
-enum NetworkError: Error {
-	case connectivity
-	case invalidData
-}

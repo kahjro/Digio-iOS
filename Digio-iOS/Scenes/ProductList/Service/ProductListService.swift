@@ -8,7 +8,7 @@
 import Foundation
 
 protocol ProductServiceLogic {
-	typealias Result = Swift.Result<ProductsModel, Error>
+	typealias Result = Swift.Result<ProductsModel, APIError>
 
 	func getProducts(completion: @escaping (Result) -> Void)
 }
@@ -24,8 +24,10 @@ final class ProductListService: ProductServiceLogic {
 			switch result {
 			case .success(let (data, response)):
 				completion(ProductListService.map(data, from: response))
-			case .failure:
-				completion(.failure(NetworkError.connectivity))
+			case let .failure(error):
+				var apiError = error as NSError
+				completion(.failure(APIError.uncategorized(statusCode: apiError.code,
+														   errorDescription: apiError.localizedDescription)))
 			}
 		}
 	}
@@ -35,7 +37,7 @@ final class ProductListService: ProductServiceLogic {
 			let products = try ProductMapper.map(data, from: response)
 			return .success(products)
 		} catch {
-			return .failure(error)
+			return .failure(APIError.invalidData)
 		}
 	}
 }
